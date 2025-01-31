@@ -232,10 +232,51 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ExPnef3UGxiHCRJJMKfM" name="selectInteraction">
-    <mxGraphModel dx="977" dy="553" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="1149" dy="651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="TtmHfTtD9xPWxNg56lsB-6" value="selectInteraction(theInteractionType)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1">
+          <mxGeometry y="5" relative="1" as="geometry">
+            <mxPoint x="120" y="165" as="sourcePoint" />
+            <mxPoint x="309.9999999999998" y="165" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TtmHfTtD9xPWxNg56lsB-16" value=":Game" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="261" y="540" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TtmHfTtD9xPWxNg56lsB-18" value="requests interaction specific options" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0074" y="-9" relative="1" as="geometry">
+            <mxPoint x="310" y="500" as="sourcePoint" />
+            <mxPoint x="120" y="500" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TtmHfTtD9xPWxNg56lsB-25" value=":GameObject" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="510" y="80" width="100" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="TtmHfTtD9xPWxNg56lsB-26" value=":Game" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="266" y="80" width="100" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="TtmHfTtD9xPWxNg56lsB-27" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="TtmHfTtD9xPWxNg56lsB-26">
+          <mxGeometry x="45" y="80" width="10" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="TtmHfTtD9xPWxNg56lsB-28" value=":InteractionType" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="770" y="80" width="100" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="TtmHfTtD9xPWxNg56lsB-29" value=":Scene" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="940" y="80" width="100" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="TtmHfTtD9xPWxNg56lsB-32" value=":GameObject" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="505" y="540" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TtmHfTtD9xPWxNg56lsB-34" value=":InteractionType" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="765" y="540" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TtmHfTtD9xPWxNg56lsB-35" value=":Scene" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="935" y="540" width="110" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0" version="26.0.10" pages="6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.6" pages="6">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Domain Model">
     <mxGraphModel dx="1628" dy="922" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -294,7 +294,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ExPnef3UGxiHCRJJMKfM" name="selectInteraction">
-    <mxGraphModel dx="2074" dy="1134" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="1221" dy="618" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -306,9 +306,6 @@
         </mxCell>
         <mxCell id="wDgoebGUwkhS_K69eRhb-9" value="&lt;b&gt;2. System asks for interaction specific options&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="880" y="30" width="290" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="wDgoebGUwkhS_K69eRhb-11" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="100" y="60" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RNJCA9gemCB_SgPygmtm-1" value="selectInteraction(theInteractionType)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" parent="1" edge="1">
           <mxGeometry y="5" relative="1" as="geometry">
@@ -403,7 +400,7 @@
             <mxPoint x="560" y="420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0rCZuLMpvzMUD-d3CMhI-1" value="&lt;div&gt;interactionType borde väl finnas på ett objekt&lt;/div&gt;&lt;div&gt;innan en play kallar &quot;selectInteraction&quot;, tex om den&lt;/div&gt;&lt;div&gt;tidigare ska få veta vilka interactions som finns&lt;/div&gt;&lt;div&gt;borde vi redan ha interactionTypes på ett objekt&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="0rCZuLMpvzMUD-d3CMhI-1" value="&lt;div&gt;interactionType borde väl finnas på ett objekt&lt;/div&gt;&lt;div&gt;innan en play kallar &quot;selectInteraction&quot;, tex om den&lt;/div&gt;&lt;div&gt;tidigare ska få veta vilka interactions som finns&lt;/div&gt;&lt;div&gt;borde vi redan ha interactionTypes på ett objekt&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="900" y="100" width="300" height="70" as="geometry" />
         </mxCell>
       </root>

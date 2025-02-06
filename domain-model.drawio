@@ -225,7 +225,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Z-smlb-jLo-Avqe1Ht5E" name="selectObject">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="1163" dy="-311" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -354,7 +354,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ExPnef3UGxiHCRJJMKfM" name="selectInteraction">
-    <mxGraphModel dx="4070" dy="2060" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2560" pageHeight="1920" math="0" shadow="0">
+    <mxGraphModel dx="1436" dy="727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2560" pageHeight="1440" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -477,6 +477,9 @@
         </mxCell>
         <mxCell id="zmscewwaPI64AjD4QBYY-3" value="return a list of interaction types?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1105" y="248" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zmscewwaPI64AjD4QBYY-4" value=":Game" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};size=60;" vertex="1" parent="1">
+          <mxGeometry x="261" y="680" width="100" height="300" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

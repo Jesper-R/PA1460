@@ -1628,7 +1628,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="qFaGVfkhib2pcFZIG6da" name="All Diagrams">
-    <mxGraphModel dx="510" dy="-584" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2848" dy="469" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1786,7 +1786,7 @@
         <mxCell id="vU5bPjjjOP_SMSQuJmPc-21" value="getSpecificOptions()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="950" y="1740" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vU5bPjjjOP_SMSQuJmPc-22" value="High cohesion, Game directs the work of selecting interaction to Scene,&amp;nbsp;&lt;div&gt;Scene knows the s&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;elected Gameobj so we can get the information through that.&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;div&gt;The selectedObj is information expert about its interaction types so it will be able to get us the specific options.&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Low coupling, we dont do everything in game, Scene doesnt work directly towards interactionType.&amp;nbsp;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="vU5bPjjjOP_SMSQuJmPc-22" value="High cohesion, Game directs the work of selecting interaction to Scene,&amp;nbsp;&lt;div&gt;Scene knows the s&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;elected Gameobj so we can get the information through that.&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;div&gt;The selectedObj is information expert about its interaction types so it will be able to get us the specific options.&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Low coupling, we dont do everything in game, Scene doesnt work directly towards interactionType.&amp;nbsp;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="985" y="1860" width="610" height="70" as="geometry" />
         </mxCell>
         <mxCell id="_N_gNKXLUBBlAek_gSGc-1" value=":Game" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
@@ -1902,7 +1902,7 @@
         <mxCell id="_N_gNKXLUBBlAek_gSGc-23" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="_N_gNKXLUBBlAek_gSGc-22">
           <mxGeometry x="93" y="100" width="10" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="_N_gNKXLUBBlAek_gSGc-24" value="Scene should know what gameObj is selected,&amp;nbsp;&lt;div&gt;Game doesnt have to worry about that,&amp;nbsp;&lt;div&gt;encourages low coupling and high cohesion&amp;nbsp;&lt;/div&gt;&lt;div&gt;by directing work to the more specialized classes.&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="_N_gNKXLUBBlAek_gSGc-24" value="Scene should know what gameObj is selected,&amp;nbsp;&lt;div&gt;Game doesnt have to worry about that,&amp;nbsp;&lt;div&gt;encourages low coupling and high cohesion&amp;nbsp;&lt;/div&gt;&lt;div&gt;by directing work to the more specialized classes.&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="1280" y="2310" width="350" height="90" as="geometry" />
         </mxCell>
         <mxCell id="XrUeXyZNerGcC-O1Kp6B-1" value=":Game" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -2058,7 +2058,7 @@
         <mxCell id="XrUeXyZNerGcC-O1Kp6B-33" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
           <mxGeometry x="747.5" y="2740" width="115" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="XrUeXyZNerGcC-O1Kp6B-34" value="We achieve high cohesion by letting game pass&lt;div&gt;the startInteraction to scene who in turn knows&lt;/div&gt;&lt;div&gt;the selected object and calls execute on&amp;nbsp;&lt;/div&gt;&lt;div&gt;that specific object. The gameobject is the controller&lt;/div&gt;&lt;div&gt;for the actual interaction to be executed. We also have&lt;/div&gt;&lt;div&gt;pure fabrication with an EventHandler that takes care of&lt;/div&gt;&lt;div&gt;all the events. The gameobj is the information expert about&lt;/div&gt;&lt;div&gt;its interaction and should therefor be the executor. Low coupling&lt;/div&gt;&lt;div&gt;by letting scene generate the event and not gameobj directly.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="XrUeXyZNerGcC-O1Kp6B-34" value="We achieve high cohesion by letting game pass&lt;div&gt;the startInteraction to scene who in turn knows&lt;/div&gt;&lt;div&gt;the selected object and calls execute on&amp;nbsp;&lt;/div&gt;&lt;div&gt;that specific object. The gameobject is the controller&lt;/div&gt;&lt;div&gt;for the actual interaction to be executed. We also have&lt;/div&gt;&lt;div&gt;pure fabrication with an EventHandler that takes care of&lt;/div&gt;&lt;div&gt;all the events. The gameobj is the information expert about&lt;/div&gt;&lt;div&gt;its interaction and should therefor be the executor. Low coupling&lt;/div&gt;&lt;div&gt;by letting scene generate the event and not gameobj directly.&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1110" y="2730" width="360" height="140" as="geometry" />
         </mxCell>
       </root>

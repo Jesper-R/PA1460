@@ -1628,7 +1628,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="qFaGVfkhib2pcFZIG6da" name="All Diagrams">
-    <mxGraphModel dx="2848" dy="469" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1238" dy="-457" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1729,13 +1729,13 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vU5bPjjjOP_SMSQuJmPc-11" value="selected:GameObject" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+        <mxCell id="vU5bPjjjOP_SMSQuJmPc-11" value="selectedObj:GameObject" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="820" y="1570" width="165" height="470" as="geometry" />
         </mxCell>
         <mxCell id="vU5bPjjjOP_SMSQuJmPc-12" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="vU5bPjjjOP_SMSQuJmPc-11">
           <mxGeometry x="77.5" y="180" width="10" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="vU5bPjjjOP_SMSQuJmPc-13" value="selected:GameObject" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="vU5bPjjjOP_SMSQuJmPc-13" value="selectedObj:GameObject" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="817.5" y="2040" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="vU5bPjjjOP_SMSQuJmPc-14" value="selectInteraction(theInteractionType)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="vU5bPjjjOP_SMSQuJmPc-4">

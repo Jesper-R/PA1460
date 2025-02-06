@@ -1706,8 +1706,17 @@
         <mxCell id="vU5bPjjjOP_SMSQuJmPc-5" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="vU5bPjjjOP_SMSQuJmPc-4" vertex="1">
           <mxGeometry x="45" y="130" width="10" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="vU5bPjjjOP_SMSQuJmPc-6" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="vU5bPjjjOP_SMSQuJmPc-4" vertex="1">
-          <mxGeometry x="55" y="300" width="10" height="40" as="geometry" />
+        <mxCell id="qQSJAItky2Tr8gTf4x-2-1" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="vU5bPjjjOP_SMSQuJmPc-4">
+          <mxGeometry x="50" y="300" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qQSJAItky2Tr8gTf4x-2-2" value="formatOptions(specificOptions)" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="qQSJAItky2Tr8gTf4x-2-1" parent="vU5bPjjjOP_SMSQuJmPc-4">
+          <mxGeometry x="0.0118" relative="1" as="geometry">
+            <mxPoint x="55" y="280" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="310" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="vU5bPjjjOP_SMSQuJmPc-9" value="requests interaction specific options" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry x="-0.0074" y="-9" relative="1" as="geometry">
@@ -1741,15 +1750,6 @@
             <mxPoint x="895" y="1840" as="sourcePoint" />
             <mxPoint x="580" y="1840" as="targetPoint" />
             <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vU5bPjjjOP_SMSQuJmPc-16" value="formatOptions(specificOptions)" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="581" y="1850" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="611" y="1880" />
-            </Array>
-            <mxPoint x="586" y="1880.0303030303032" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vU5bPjjjOP_SMSQuJmPc-17" value="formatted specific options for selected interaction type" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" target="vU5bPjjjOP_SMSQuJmPc-2" edge="1">

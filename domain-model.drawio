@@ -1628,7 +1628,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="qFaGVfkhib2pcFZIG6da" name="All Diagrams">
-    <mxGraphModel dx="845" dy="-77" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="510" dy="-584" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2058,7 +2058,7 @@
         <mxCell id="XrUeXyZNerGcC-O1Kp6B-33" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
           <mxGeometry x="747.5" y="2740" width="115" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="XrUeXyZNerGcC-O1Kp6B-34" value="We achieve high coupling by letting game pass&lt;div&gt;the startInteraction to scene who in turn knows&lt;/div&gt;&lt;div&gt;the selected object and calls execute on&amp;nbsp;&lt;/div&gt;&lt;div&gt;that specific object. The gameobject is the controller&lt;/div&gt;&lt;div&gt;for the actual interaction to be executed. We also have&lt;/div&gt;&lt;div&gt;pure fabrication with an EventHandler that takes care of&lt;/div&gt;&lt;div&gt;all the events. The gameobj is the information expert about&lt;/div&gt;&lt;div&gt;its interaction and should therefor be the executor. Low coupling&lt;/div&gt;&lt;div&gt;by letting scene generate the event and not gameobj directly.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="XrUeXyZNerGcC-O1Kp6B-34" value="We achieve high cohesion by letting game pass&lt;div&gt;the startInteraction to scene who in turn knows&lt;/div&gt;&lt;div&gt;the selected object and calls execute on&amp;nbsp;&lt;/div&gt;&lt;div&gt;that specific object. The gameobject is the controller&lt;/div&gt;&lt;div&gt;for the actual interaction to be executed. We also have&lt;/div&gt;&lt;div&gt;pure fabrication with an EventHandler that takes care of&lt;/div&gt;&lt;div&gt;all the events. The gameobj is the information expert about&lt;/div&gt;&lt;div&gt;its interaction and should therefor be the executor. Low coupling&lt;/div&gt;&lt;div&gt;by letting scene generate the event and not gameobj directly.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1110" y="2730" width="360" height="140" as="geometry" />
         </mxCell>
       </root>

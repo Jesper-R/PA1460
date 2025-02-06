@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.11" pages="6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.11" pages="6">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Domain Model">
     <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -357,7 +357,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ExPnef3UGxiHCRJJMKfM" name="selectInteraction">
-    <mxGraphModel dx="1285" dy="651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2560" pageHeight="1440" math="0" shadow="0">
+    <mxGraphModel dx="955" dy="812" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2560" pageHeight="1440" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -579,6 +579,9 @@
         </mxCell>
         <mxCell id="ZBDQ3Ih596Dx50LI6Hka-4" value="getSpecificOptions()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1030" y="850" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6Yd1KTPx4XQ_k0Gl1ggQ-1" value="High cohesion, Game directs the work of selecting interaction to Scene,&amp;nbsp;&lt;div&gt;Scene knows the s&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;elected Gameobj so we can get the information through that.&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;div&gt;The selectedObj is information expert about its interaction types so it will be able to get us the specific options.&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Low coupling, we dont do everything in game, Scene doesnt work directly towards interactionType.&amp;nbsp;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="220" y="1300" width="610" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

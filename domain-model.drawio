@@ -597,7 +597,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="KfshoOWpEjwMeKEwtVXT" name="startInteraction">
-    <mxGraphModel dx="1744" dy="964" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="1482" dy="819" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1187,6 +1187,9 @@
             <mxPoint x="990" y="1800" as="sourcePoint" />
             <mxPoint x="910" y="1800" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="pY42EsGLpm5MfkqfITlg-4" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="1005" y="1700" width="115" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

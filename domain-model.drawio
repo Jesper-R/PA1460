@@ -597,7 +597,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="KfshoOWpEjwMeKEwtVXT" name="startInteraction">
-    <mxGraphModel dx="3293" dy="1820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="1744" dy="964" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1222,8 +1222,8 @@
         <mxCell id="BGF3N5Ra4ceOWRQhMnA1-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1" source="qoxsCEC3pq0ppWSFJAoQ-45" target="qoxsCEC3pq0ppWSFJAoQ-32">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="780" y="1840" />
-              <mxPoint x="780" y="1840" />
+              <mxPoint x="950" y="1850" />
+              <mxPoint x="950" y="1850" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1288,6 +1288,9 @@
               <mxPoint x="1020" y="1760" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="pY42EsGLpm5MfkqfITlg-1" value="generateEvents(result)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="855" y="1825" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

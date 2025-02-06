@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 OPR/115.0.0.0" version="26.0.11" pages="6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.11" pages="6">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Domain Model">
     <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -357,7 +357,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ExPnef3UGxiHCRJJMKfM" name="selectInteraction">
-    <mxGraphModel dx="1526" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2560" pageHeight="1440" math="0" shadow="0">
+    <mxGraphModel dx="1436" dy="727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2560" pageHeight="1440" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -370,10 +370,10 @@
         <mxCell id="wDgoebGUwkhS_K69eRhb-9" value="&lt;b&gt;2. System asks for interaction specific options&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="880" y="30" width="290" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="RNJCA9gemCB_SgPygmtm-1" value="selectInteraction(theInteractionType)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" parent="1" edge="1">
-          <mxGeometry y="5" relative="1" as="geometry">
-            <mxPoint x="120" y="165" as="sourcePoint" />
-            <mxPoint x="309.9999999999998" y="165" as="targetPoint" />
+        <mxCell id="RNJCA9gemCB_SgPygmtm-1" value="selectInteraction(theInteractionType)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" edge="1" target="zmscewwaPI64AjD4QBYY-4">
+          <mxGeometry x="-0.0499" y="10" relative="1" as="geometry">
+            <mxPoint x="100" y="780" as="sourcePoint" />
+            <mxPoint x="289.9999999999998" y="780" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -484,14 +484,61 @@
         <mxCell id="zmscewwaPI64AjD4QBYY-4" value=":Game" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};size=60;" parent="1" vertex="1">
           <mxGeometry x="261" y="680" width="100" height="480" as="geometry" />
         </mxCell>
+        <mxCell id="THh7NEgT-f413c42kcqn-2" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="zmscewwaPI64AjD4QBYY-4">
+          <mxGeometry x="45" y="80" width="10" height="320" as="geometry" />
+        </mxCell>
         <mxCell id="1l_1VPbq2lz82Jotpdj6-1" value="current:Scene" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};size=60;" vertex="1" parent="1">
-          <mxGeometry x="478.75" y="680" width="100" height="480" as="geometry" />
+          <mxGeometry x="600" y="680" width="100" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="THh7NEgT-f413c42kcqn-4" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1l_1VPbq2lz82Jotpdj6-1">
+          <mxGeometry x="45" y="130" width="10" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="A4tYIdFtE-XBHq87Wy7N-7" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1l_1VPbq2lz82Jotpdj6-1">
+          <mxGeometry x="55" y="280" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="A4tYIdFtE-XBHq87Wy7N-8" value="formatOptions()" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="A4tYIdFtE-XBHq87Wy7N-7" parent="1l_1VPbq2lz82Jotpdj6-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="260" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="90" y="290" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="1l_1VPbq2lz82Jotpdj6-2" value=":Game" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="251" y="1150" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="1l_1VPbq2lz82Jotpdj6-3" value="current:Scene" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="460" y="1150" width="130" height="50" as="geometry" />
+          <mxGeometry x="585" y="1150" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="THh7NEgT-f413c42kcqn-1" value="selectInteraction(theInteractionType)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1">
+          <mxGeometry x="-0.0526" y="5" relative="1" as="geometry">
+            <mxPoint x="130" y="175" as="sourcePoint" />
+            <mxPoint x="319.9999999999998" y="175" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="THh7NEgT-f413c42kcqn-3" value="requests interaction specific options" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0074" y="-9" relative="1" as="geometry">
+            <mxPoint x="300" y="1060" as="sourcePoint" />
+            <mxPoint x="110" y="1060" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="THh7NEgT-f413c42kcqn-5" value="getInteractionOptions(theInteractionType)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="1l_1VPbq2lz82Jotpdj6-1">
+          <mxGeometry x="-0.0396" y="10" width="80" relative="1" as="geometry">
+            <mxPoint x="320" y="810" as="sourcePoint" />
+            <mxPoint x="400" y="810" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A4tYIdFtE-XBHq87Wy7N-3" value="current:GameObject" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="900" y="680" width="165" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="A4tYIdFtE-XBHq87Wy7N-4" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="A4tYIdFtE-XBHq87Wy7N-3">
+          <mxGeometry x="77.5" y="180" width="10" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="A4tYIdFtE-XBHq87Wy7N-5" value="current:GameObject" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="897.5" y="1150" width="160" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -815,7 +862,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="KfshoOWpEjwMeKEwtVXT" name="startInteraction">
-    <mxGraphModel dx="1013" dy="672" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />

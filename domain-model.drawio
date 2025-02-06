@@ -316,7 +316,7 @@
             <mxPoint x="585" y="1570.0000000000007" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TGRUczCpZlTVfeswOG2B-11" value="availableInteractions[]" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontStyle=0" parent="1" edge="1">
+        <mxCell id="TGRUczCpZlTVfeswOG2B-11" value="Available Interactions" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontStyle=0" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="370" y="1729" as="targetPoint" />
             <mxPoint x="585" y="1729" as="sourcePoint" />
@@ -338,7 +338,7 @@
             <mxPoint x="900" y="1715" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TGRUczCpZlTVfeswOG2B-30" value="availableInteractions[]" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontStyle=0" parent="1" edge="1">
+        <mxCell id="TGRUczCpZlTVfeswOG2B-30" value="Available Interactions" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontStyle=0" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="595" y="1710" as="targetPoint" />
             <mxPoint x="885" y="1710" as="sourcePoint" />

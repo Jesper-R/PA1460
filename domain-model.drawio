@@ -2059,7 +2059,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="XDrLRxBjQ6ypKpndnGUh" name="Package Diagram">
-    <mxGraphModel dx="1190" dy="1406" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2315" dy="1731" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2187,6 +2187,60 @@
         </mxCell>
         <mxCell id="nN-uppCSN45sLHQXPCbX-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.53;entryY=0.216;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;startFill=0;" edge="1" parent="1" source="nN-uppCSN45sLHQXPCbX-2" target="nN-uppCSN45sLHQXPCbX-8">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nN-uppCSN45sLHQXPCbX-47" value="Scene" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="615" y="980" width="140" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="nN-uppCSN45sLHQXPCbX-48" value="&lt;div&gt;+ isAvailable(character)&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nN-uppCSN45sLHQXPCbX-47">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nN-uppCSN45sLHQXPCbX-51" value="Phonebook" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="1230" width="180" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="nN-uppCSN45sLHQXPCbX-52" value="+ getContactMethod(character)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nN-uppCSN45sLHQXPCbX-51">
+          <mxGeometry y="26" width="180" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nN-uppCSN45sLHQXPCbX-55" value="Game" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="980" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nN-uppCSN45sLHQXPCbX-56" value="&lt;div&gt;+ initiateConversation(character)&lt;/div&gt;&lt;div&gt;+ sendQuery(query)&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nN-uppCSN45sLHQXPCbX-55">
+          <mxGeometry y="26" width="190" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="nN-uppCSN45sLHQXPCbX-58" value="CharacterInterface" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="1070" width="140" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="nN-uppCSN45sLHQXPCbX-59" value="+ activate()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nN-uppCSN45sLHQXPCbX-58">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nN-uppCSN45sLHQXPCbX-60" value="CharacterRepository" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="1150" width="150" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="nN-uppCSN45sLHQXPCbX-61" value="+ getCharacter(character)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nN-uppCSN45sLHQXPCbX-60">
+          <mxGeometry y="26" width="150" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nN-uppCSN45sLHQXPCbX-62" value="Character" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="980" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nN-uppCSN45sLHQXPCbX-63" value="&lt;div&gt;+ getInitialGreeting()&lt;/div&gt;&lt;div&gt;+ query(safeQuery)&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nN-uppCSN45sLHQXPCbX-62">
+          <mxGeometry y="26" width="140" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="nN-uppCSN45sLHQXPCbX-64" value="InputSanitiser" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="1140" width="140" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="nN-uppCSN45sLHQXPCbX-65" value="+ sanitiseInput(query)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nN-uppCSN45sLHQXPCbX-64">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nN-uppCSN45sLHQXPCbX-66" value="InteractionEngine" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="980" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nN-uppCSN45sLHQXPCbX-67" value="&lt;div&gt;+ parseQuery(query)&lt;/div&gt;&lt;div&gt;+ formatResponse(response, options)&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nN-uppCSN45sLHQXPCbX-66">
+          <mxGeometry y="26" width="220" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="nN-uppCSN45sLHQXPCbX-68" value="PlotEngine" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="1070" width="140" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="nN-uppCSN45sLHQXPCbX-69" value="+ getPlotState()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nN-uppCSN45sLHQXPCbX-68">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -2059,11 +2059,11 @@
     </mxGraphModel>
   </diagram>
   <diagram id="XDrLRxBjQ6ypKpndnGUh" name="Package Diagram">
-    <mxGraphModel dx="1802" dy="1104" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2210" dy="1577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="nN-uppCSN45sLHQXPCbX-2" value="Business Layer" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;whiteSpace=wrap;" parent="1" vertex="1">
+        <mxCell id="nN-uppCSN45sLHQXPCbX-2" value="Application Logic" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="60" y="360" width="1110" height="270" as="geometry" />
         </mxCell>
         <mxCell id="nN-uppCSN45sLHQXPCbX-3" value="" style="html=1;strokeColor=none;resizeWidth=1;resizeHeight=1;fillColor=none;part=1;connectable=0;allowArrows=0;deletable=0;whiteSpace=wrap;" parent="nN-uppCSN45sLHQXPCbX-2" vertex="1">
@@ -2156,21 +2156,24 @@
             <mxPoint x="966" y="130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nN-uppCSN45sLHQXPCbX-4" value="UI" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="610" y="260" width="150" height="50" as="geometry" />
+        <mxCell id="nN-uppCSN45sLHQXPCbX-4" value="Presentation Layer" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="335" y="40" width="560" height="250" as="geometry" />
         </mxCell>
         <mxCell id="nN-uppCSN45sLHQXPCbX-5" value="" style="html=1;strokeColor=none;resizeWidth=1;resizeHeight=1;fillColor=none;part=1;connectable=0;allowArrows=0;deletable=0;whiteSpace=wrap;" parent="nN-uppCSN45sLHQXPCbX-4" vertex="1">
-          <mxGeometry width="150" height="35" relative="1" as="geometry">
+          <mxGeometry width="560" height="175" relative="1" as="geometry">
             <mxPoint y="30" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nN-uppCSN45sLHQXPCbX-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.539;entryY=0.063;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;startFill=0;" parent="1" source="nN-uppCSN45sLHQXPCbX-4" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="684.25" y="391.5" as="targetPoint" />
+        <mxCell id="0MRK5BiUA3MHxA97kfcw-2" value="Views" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;whiteSpace=wrap;" vertex="1" parent="nN-uppCSN45sLHQXPCbX-4">
+          <mxGeometry x="20" y="50" width="390" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="0MRK5BiUA3MHxA97kfcw-3" value="" style="html=1;strokeColor=none;resizeWidth=1;resizeHeight=1;fillColor=none;part=1;connectable=0;allowArrows=0;deletable=0;whiteSpace=wrap;" vertex="1" parent="0MRK5BiUA3MHxA97kfcw-2">
+          <mxGeometry width="390" height="126.00000000000001" relative="1" as="geometry">
+            <mxPoint y="30" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="nN-uppCSN45sLHQXPCbX-8" value="Data Layer" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="260" y="680" width="330" height="140" as="geometry" />
+          <mxGeometry x="440" y="700" width="330" height="140" as="geometry" />
         </mxCell>
         <mxCell id="nN-uppCSN45sLHQXPCbX-9" value="" style="html=1;strokeColor=none;resizeWidth=1;resizeHeight=1;fillColor=none;part=1;connectable=0;allowArrows=0;deletable=0;whiteSpace=wrap;" parent="nN-uppCSN45sLHQXPCbX-8" vertex="1">
           <mxGeometry width="330" height="98" relative="1" as="geometry">
@@ -2241,6 +2244,9 @@
         </mxCell>
         <mxCell id="nN-uppCSN45sLHQXPCbX-69" value="+ getPlotState()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="nN-uppCSN45sLHQXPCbX-68" vertex="1">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="0MRK5BiUA3MHxA97kfcw-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0.117;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;startFill=0;" edge="1" parent="1" source="nN-uppCSN45sLHQXPCbX-4" target="nN-uppCSN45sLHQXPCbX-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

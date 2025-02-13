@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.11" pages="7">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:135.0) Gecko/20100101 Firefox/135.0" version="26.0.12" pages="8">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Domain Model">
     <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2055,6 +2055,14 @@
         <mxCell id="XrUeXyZNerGcC-O1Kp6B-34" value="We achieve high cohesion by letting game pass&lt;div&gt;the startInteraction to scene who in turn knows&lt;/div&gt;&lt;div&gt;the selected object and calls execute on&amp;nbsp;&lt;/div&gt;&lt;div&gt;that specific object. The gameobject is the controller&lt;/div&gt;&lt;div&gt;for the actual interaction to be executed. We also have&lt;/div&gt;&lt;div&gt;pure fabrication with an EventHandler that takes care of&lt;/div&gt;&lt;div&gt;all the events. The gameobj is the information expert about&lt;/div&gt;&lt;div&gt;its interaction and should therefor be the executor. Low coupling&lt;/div&gt;&lt;div&gt;by letting scene generate the event and not gameobj directly.&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1110" y="2730" width="360" height="140" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="XDrLRxBjQ6ypKpndnGUh" name="Package Diagram">
+    <mxGraphModel dx="954" dy="2254" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>

@@ -2059,16 +2059,29 @@
     </mxGraphModel>
   </diagram>
   <diagram id="XDrLRxBjQ6ypKpndnGUh" name="Package Diagram">
-    <mxGraphModel dx="954" dy="2254" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1058" dy="1250" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="nN-uppCSN45sLHQXPCbX-2" value="Game" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="60" y="390" width="750" height="500" as="geometry" />
+          <mxGeometry x="60" y="360" width="750" height="500" as="geometry" />
         </mxCell>
         <mxCell id="nN-uppCSN45sLHQXPCbX-3" value="" style="html=1;strokeColor=none;resizeWidth=1;resizeHeight=1;fillColor=none;part=1;connectable=0;allowArrows=0;deletable=0;whiteSpace=wrap;" vertex="1" parent="nN-uppCSN45sLHQXPCbX-2">
           <mxGeometry width="750" height="350" relative="1" as="geometry">
             <mxPoint y="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nN-uppCSN45sLHQXPCbX-4" value="UI" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="610" y="260" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nN-uppCSN45sLHQXPCbX-5" value="" style="html=1;strokeColor=none;resizeWidth=1;resizeHeight=1;fillColor=none;part=1;connectable=0;allowArrows=0;deletable=0;whiteSpace=wrap;" vertex="1" parent="nN-uppCSN45sLHQXPCbX-4">
+          <mxGeometry width="150" height="35" relative="1" as="geometry">
+            <mxPoint y="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nN-uppCSN45sLHQXPCbX-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.539;entryY=0.063;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;startFill=0;" edge="1" parent="1" source="nN-uppCSN45sLHQXPCbX-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="684.25" y="391.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>

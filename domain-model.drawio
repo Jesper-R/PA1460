@@ -2653,7 +2653,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="VQHF-y8EdRrDJKnB7GDF" name="Page-9">
-    <mxGraphModel dx="3564" dy="2620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2157" dy="2887" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2872,26 +2872,18 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Oex9N7d72UFLzl8X7TSk-59" value="Data Layer" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;whiteSpace=wrap;" vertex="1" parent="Oex9N7d72UFLzl8X7TSk-1">
-          <mxGeometry x="20" y="430" width="330" height="110" as="geometry" />
+          <mxGeometry x="20" y="430" width="240" height="110" as="geometry" />
         </mxCell>
         <mxCell id="Oex9N7d72UFLzl8X7TSk-60" value="" style="html=1;strokeColor=none;resizeWidth=1;resizeHeight=1;fillColor=none;part=1;connectable=0;allowArrows=0;deletable=0;whiteSpace=wrap;" vertex="1" parent="Oex9N7d72UFLzl8X7TSk-59">
-          <mxGeometry width="300" height="77" relative="1" as="geometry">
-            <mxPoint y="30" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Oex9N7d72UFLzl8X7TSk-61" value="Local Storage" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;whiteSpace=wrap;" vertex="1" parent="Oex9N7d72UFLzl8X7TSk-59">
-          <mxGeometry x="12.4528301886794" y="50.004857142857084" width="118.30188679245282" height="34.838571428571434" as="geometry" />
-        </mxCell>
-        <mxCell id="Oex9N7d72UFLzl8X7TSk-62" value="" style="html=1;strokeColor=none;resizeWidth=1;resizeHeight=1;fillColor=none;part=1;connectable=0;allowArrows=0;deletable=0;whiteSpace=wrap;" vertex="1" parent="Oex9N7d72UFLzl8X7TSk-61">
-          <mxGeometry width="118.30188679245282" height="24.387" relative="1" as="geometry">
+          <mxGeometry width="218.1818181818182" height="77" relative="1" as="geometry">
             <mxPoint y="30" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Oex9N7d72UFLzl8X7TSk-63" value="Checkpoint" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;whiteSpace=wrap;" vertex="1" parent="Oex9N7d72UFLzl8X7TSk-59">
-          <mxGeometry x="160.00283018867924" y="50.002571428571336" width="118.30188679245282" height="34.838571428571434" as="geometry" />
+          <mxGeometry x="21.820240137221266" y="55.56257142857134" width="86.0377358490566" height="34.838571428571434" as="geometry" />
         </mxCell>
         <mxCell id="Oex9N7d72UFLzl8X7TSk-64" value="" style="html=1;strokeColor=none;resizeWidth=1;resizeHeight=1;fillColor=none;part=1;connectable=0;allowArrows=0;deletable=0;whiteSpace=wrap;" vertex="1" parent="Oex9N7d72UFLzl8X7TSk-63">
-          <mxGeometry width="118.30188679245282" height="24.387" relative="1" as="geometry">
+          <mxGeometry width="86.0377358490566" height="24.387" relative="1" as="geometry">
             <mxPoint y="30" as="offset" />
           </mxGeometry>
         </mxCell>

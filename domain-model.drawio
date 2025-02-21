@@ -3693,17 +3693,17 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="PVyFAX71X3atqNXK63rj-1" value="&lt;div&gt;&amp;lt;&amp;lt;Singleton&amp;gt;&amp;gt;&lt;/div&gt;EventManager" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="1270" width="410" height="300" as="geometry" />
+        <mxCell id="PVyFAX71X3atqNXK63rj-1" value="&lt;div&gt;&amp;lt;&amp;lt;Singleton&amp;gt;&amp;gt;&lt;/div&gt;EventManager" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="1270" width="410" height="310" as="geometry" />
         </mxCell>
-        <mxCell id="PVyFAX71X3atqNXK63rj-2" value="- EventManager instance // Enda instansen&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="PVyFAX71X3atqNXK63rj-1">
+        <mxCell id="PVyFAX71X3atqNXK63rj-2" value="- instance: EventManager" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="PVyFAX71X3atqNXK63rj-1" vertex="1">
           <mxGeometry y="50" width="410" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="PVyFAX71X3atqNXK63rj-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="PVyFAX71X3atqNXK63rj-1">
+        <mxCell id="PVyFAX71X3atqNXK63rj-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="PVyFAX71X3atqNXK63rj-1" vertex="1">
           <mxGeometry y="112" width="410" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="PVyFAX71X3atqNXK63rj-4" value="&lt;div&gt;- EventManager() // privat konstruktor för att förhindra att fler instanser kan skpas.&amp;nbsp;&lt;/div&gt;+ createEvent(EventCondition, Event)&lt;div&gt;+ listAffectedEvents(EventCondition)&lt;/div&gt;&lt;div&gt;+ triggerEvents(EventCondition)&lt;/div&gt;&lt;div&gt;+ clearEvent(EventCondition)&lt;/div&gt;&lt;div&gt;+ clearEvent(Event)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ EventManager getInstance() // Alla kan nå den&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="PVyFAX71X3atqNXK63rj-1">
-          <mxGeometry y="120" width="410" height="180" as="geometry" />
+        <mxCell id="PVyFAX71X3atqNXK63rj-4" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;+ createEvent(EventCondition, Event)&lt;div&gt;+ listAffectedEvents(EventCondition)&lt;/div&gt;&lt;div&gt;+ triggerEvents(EventCondition)&lt;/div&gt;&lt;div&gt;+ clearEvent(EventCondition)&lt;/div&gt;&lt;div&gt;+ clearEvent(Event)&lt;/div&gt;&lt;div&gt;&lt;br&gt;---&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- EventManager() // privat konstruktor för att förhindra att fler instanser kan skapas.&lt;/div&gt;&lt;div&gt;+ EventManager getInstance() // Alla kan nå den&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="PVyFAX71X3atqNXK63rj-1" vertex="1">
+          <mxGeometry y="120" width="410" height="190" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

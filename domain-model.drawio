@@ -3123,7 +3123,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="qlhr9vtIuLvg77jzLP2-" name="refactor-class-diagram">
-    <mxGraphModel dx="1776" dy="1005" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="2171" dy="1229" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3143,25 +3143,25 @@
           <mxGeometry y="34" width="410" height="26" as="geometry" />
         </mxCell>
         <mxCell id="hyTZ3_ORecdzhv-X-BrB-6" value="GameElement" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="940" y="650" width="410" height="60" as="geometry" />
+          <mxGeometry x="940" y="650" width="410" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="hyTZ3_ORecdzhv-X-BrB-8" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="hyTZ3_ORecdzhv-X-BrB-6">
-          <mxGeometry y="26" width="410" height="34" as="geometry" />
+        <mxCell id="hyTZ3_ORecdzhv-X-BrB-8" value="&#xa;" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="hyTZ3_ORecdzhv-X-BrB-6">
+          <mxGeometry y="26" width="410" height="64" as="geometry" />
         </mxCell>
         <mxCell id="hyTZ3_ORecdzhv-X-BrB-10" value="GameObject" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1290" y="880" width="410" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="hyTZ3_ORecdzhv-X-BrB-11" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="hyTZ3_ORecdzhv-X-BrB-10">
+        <mxCell id="hyTZ3_ORecdzhv-X-BrB-11" value="&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="hyTZ3_ORecdzhv-X-BrB-10">
           <mxGeometry y="26" width="410" height="26" as="geometry" />
         </mxCell>
         <mxCell id="hyTZ3_ORecdzhv-X-BrB-12" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="hyTZ3_ORecdzhv-X-BrB-10">
           <mxGeometry y="52" width="410" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="hyTZ3_ORecdzhv-X-BrB-13" value="+ listInteractionTypes()&lt;div&gt;+ startInteraction(theInteractionType: string)&lt;/div&gt;&lt;div&gt;+ listCurrentInteractionOptions()&lt;/div&gt;&lt;div&gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="hyTZ3_ORecdzhv-X-BrB-10">
+        <mxCell id="hyTZ3_ORecdzhv-X-BrB-13" value="+ listInteractionTypes()&lt;div&gt;+ startInteraction(theInteractionType: string)&lt;/div&gt;&lt;div&gt;+ listCurrentInteractionOptions()&lt;/div&gt;&lt;div&gt;+ setCurrentInteractionOptions(theOptions: string)&lt;/div&gt;&lt;div&gt;+ startCurrentInteraction()&lt;/div&gt;&lt;div&gt;+ abortCurrentInteraction()&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="hyTZ3_ORecdzhv-X-BrB-10">
           <mxGeometry y="60" width="410" height="110" as="geometry" />
         </mxCell>
         <mxCell id="hyTZ3_ORecdzhv-X-BrB-14" value="Scene" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="740" y="870" width="410" height="86" as="geometry" />
+          <mxGeometry x="740" y="870" width="410" height="160" as="geometry" />
         </mxCell>
         <mxCell id="hyTZ3_ORecdzhv-X-BrB-15" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="hyTZ3_ORecdzhv-X-BrB-14">
           <mxGeometry y="26" width="410" height="26" as="geometry" />
@@ -3169,20 +3169,20 @@
         <mxCell id="hyTZ3_ORecdzhv-X-BrB-16" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="hyTZ3_ORecdzhv-X-BrB-14">
           <mxGeometry y="52" width="410" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="hyTZ3_ORecdzhv-X-BrB-17" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="hyTZ3_ORecdzhv-X-BrB-14">
-          <mxGeometry y="60" width="410" height="26" as="geometry" />
+        <mxCell id="hyTZ3_ORecdzhv-X-BrB-17" value="+ listAvailableElements()&lt;div&gt;+ isAvaiable(gameElementName: string): bool&lt;/div&gt;&lt;div&gt;+ isGameObject(gameElementName: string): bool&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="hyTZ3_ORecdzhv-X-BrB-14">
+          <mxGeometry y="60" width="410" height="100" as="geometry" />
         </mxCell>
         <mxCell id="hyTZ3_ORecdzhv-X-BrB-18" value="EventManager" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="690" width="410" height="86" as="geometry" />
+          <mxGeometry x="340" y="690" width="410" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="hyTZ3_ORecdzhv-X-BrB-19" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="hyTZ3_ORecdzhv-X-BrB-18">
+        <mxCell id="hyTZ3_ORecdzhv-X-BrB-19" value="&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="hyTZ3_ORecdzhv-X-BrB-18">
           <mxGeometry y="26" width="410" height="26" as="geometry" />
         </mxCell>
         <mxCell id="hyTZ3_ORecdzhv-X-BrB-20" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="hyTZ3_ORecdzhv-X-BrB-18">
           <mxGeometry y="52" width="410" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="hyTZ3_ORecdzhv-X-BrB-21" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="hyTZ3_ORecdzhv-X-BrB-18">
-          <mxGeometry y="60" width="410" height="26" as="geometry" />
+        <mxCell id="hyTZ3_ORecdzhv-X-BrB-21" value="+ createEvent(EventCondition, Event)&lt;div&gt;+ listAffectedEvents(EventCondition)&lt;/div&gt;&lt;div&gt;+ triggerEvents(EventCondition)&lt;/div&gt;&lt;div&gt;+ clearEvent(EventCondition)&lt;/div&gt;&lt;div&gt;+ clearEvent(Event)&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="hyTZ3_ORecdzhv-X-BrB-18">
+          <mxGeometry y="60" width="410" height="120" as="geometry" />
         </mxCell>
         <mxCell id="QruILLsReR7-T8fl5AYX-1" value="&lt;div&gt;&amp;lt;&amp;lt;context&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;GameObject&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="230" y="1360" width="280" height="154" as="geometry" />

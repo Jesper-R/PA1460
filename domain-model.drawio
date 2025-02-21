@@ -3354,10 +3354,10 @@
           <mxGeometry y="56" width="160" height="8" as="geometry" />
         </mxCell>
         <mxCell id="bWRC7RYfJQBqtzCZLidg-1" value="*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1590" y="840" width="30" height="30" as="geometry" />
+          <mxGeometry x="1570" y="930" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bWRC7RYfJQBqtzCZLidg-4" value="*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1190" y="1020" width="30" height="30" as="geometry" />
+          <mxGeometry x="1310" y="1020" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

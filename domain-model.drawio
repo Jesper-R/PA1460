@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.15" pages="11">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:135.0) Gecko/20100101 Firefox/135.0" version="26.0.14" pages="11">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Domain Model">
     <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3123,7 +3123,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="qlhr9vtIuLvg77jzLP2-" name="refactor-class-diagram">
-    <mxGraphModel dx="2171" dy="1229" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1047" dy="1511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3194,79 +3194,100 @@
           <mxGeometry y="48" width="280" height="106" as="geometry" />
         </mxCell>
         <mxCell id="QruILLsReR7-T8fl5AYX-4" value="&lt;div&gt;&lt;div&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;InteractionStrategy&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="660" y="1360" width="280" height="154" as="geometry" />
+          <mxGeometry x="660" y="1392" width="280" height="90" as="geometry" />
         </mxCell>
         <mxCell id="QruILLsReR7-T8fl5AYX-5" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="QruILLsReR7-T8fl5AYX-4">
           <mxGeometry y="40" width="280" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="QruILLsReR7-T8fl5AYX-6" value="&lt;div&gt;+ listInteractionTypes()&lt;/div&gt;&lt;div&gt;+ startInteraction(String theInteractionType)&lt;/div&gt;&lt;div&gt;+ listCurrentInteractionOptions()&lt;/div&gt;&lt;div&gt;+ setCurrentInteractionOptions(String theOptions)&lt;/div&gt;&lt;div&gt;+ startCurrentInteraction()&lt;/div&gt;&lt;div&gt;+ abortCurrentInteraction()&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="QruILLsReR7-T8fl5AYX-4">
-          <mxGeometry y="48" width="280" height="106" as="geometry" />
+        <mxCell id="QruILLsReR7-T8fl5AYX-6" value="+ startInteraction()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="QruILLsReR7-T8fl5AYX-4">
+          <mxGeometry y="48" width="280" height="42" as="geometry" />
         </mxCell>
         <mxCell id="QruILLsReR7-T8fl5AYX-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.002;entryY=0.268;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=diamondThin;endFill=0;" edge="1" parent="1" source="QruILLsReR7-T8fl5AYX-4" target="QruILLsReR7-T8fl5AYX-3">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="QruILLsReR7-T8fl5AYX-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=block;endFill=0;" edge="1" parent="1" source="QruILLsReR7-T8fl5AYX-9" target="QruILLsReR7-T8fl5AYX-4">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="QruILLsReR7-T8fl5AYX-9" value="Open" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="210" y="1600" width="160" height="34" as="geometry" />
-        </mxCell>
-        <mxCell id="QruILLsReR7-T8fl5AYX-10" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="QruILLsReR7-T8fl5AYX-9">
-          <mxGeometry y="26" width="160" height="8" as="geometry" />
         </mxCell>
         <mxCell id="QruILLsReR7-T8fl5AYX-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=block;endFill=0;" edge="1" parent="1" source="QruILLsReR7-T8fl5AYX-12" target="QruILLsReR7-T8fl5AYX-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QruILLsReR7-T8fl5AYX-12" value="Look" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="1600" width="160" height="34" as="geometry" />
+          <mxGeometry x="380" y="1600" width="160" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="QruILLsReR7-T8fl5AYX-33" value="+ startInteraction()" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="QruILLsReR7-T8fl5AYX-12">
+          <mxGeometry y="26" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QruILLsReR7-T8fl5AYX-13" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="QruILLsReR7-T8fl5AYX-12">
-          <mxGeometry y="26" width="160" height="8" as="geometry" />
+          <mxGeometry y="56" width="160" height="8" as="geometry" />
         </mxCell>
         <mxCell id="QruILLsReR7-T8fl5AYX-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=block;endFill=0;" edge="1" parent="1" source="QruILLsReR7-T8fl5AYX-15" target="QruILLsReR7-T8fl5AYX-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QruILLsReR7-T8fl5AYX-15" value="Move" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1230" y="1600" width="160" height="34" as="geometry" />
+          <mxGeometry x="1230" y="1600" width="160" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="QruILLsReR7-T8fl5AYX-42" value="+ startInteraction()" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="QruILLsReR7-T8fl5AYX-15">
+          <mxGeometry y="26" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QruILLsReR7-T8fl5AYX-16" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="QruILLsReR7-T8fl5AYX-15">
-          <mxGeometry y="26" width="160" height="8" as="geometry" />
+          <mxGeometry y="56" width="160" height="8" as="geometry" />
         </mxCell>
         <mxCell id="QruILLsReR7-T8fl5AYX-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=block;endFill=0;" edge="1" parent="1" source="QruILLsReR7-T8fl5AYX-18" target="QruILLsReR7-T8fl5AYX-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QruILLsReR7-T8fl5AYX-18" value="TurnOff" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="550" y="1600" width="160" height="34" as="geometry" />
+          <mxGeometry x="550" y="1600" width="160" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="QruILLsReR7-T8fl5AYX-38" value="+ startInteraction()" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="QruILLsReR7-T8fl5AYX-18">
+          <mxGeometry y="26" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QruILLsReR7-T8fl5AYX-19" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="QruILLsReR7-T8fl5AYX-18">
-          <mxGeometry y="26" width="160" height="8" as="geometry" />
+          <mxGeometry y="56" width="160" height="8" as="geometry" />
         </mxCell>
         <mxCell id="QruILLsReR7-T8fl5AYX-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=block;endFill=0;" edge="1" parent="1" source="QruILLsReR7-T8fl5AYX-21" target="QruILLsReR7-T8fl5AYX-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QruILLsReR7-T8fl5AYX-21" value="Taste" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="720" y="1600" width="160" height="34" as="geometry" />
+          <mxGeometry x="720" y="1600" width="160" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="QruILLsReR7-T8fl5AYX-39" value="+ startInteraction()" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="QruILLsReR7-T8fl5AYX-21">
+          <mxGeometry y="26" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QruILLsReR7-T8fl5AYX-22" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="QruILLsReR7-T8fl5AYX-21">
-          <mxGeometry y="26" width="160" height="8" as="geometry" />
+          <mxGeometry y="56" width="160" height="8" as="geometry" />
         </mxCell>
         <mxCell id="QruILLsReR7-T8fl5AYX-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=block;endFill=0;" edge="1" parent="1" source="QruILLsReR7-T8fl5AYX-24" target="QruILLsReR7-T8fl5AYX-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QruILLsReR7-T8fl5AYX-24" value="PickUp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1060" y="1600" width="160" height="34" as="geometry" />
+          <mxGeometry x="1060" y="1600" width="160" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="QruILLsReR7-T8fl5AYX-41" value="+ startInteraction()" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="QruILLsReR7-T8fl5AYX-24">
+          <mxGeometry y="26" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QruILLsReR7-T8fl5AYX-25" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="QruILLsReR7-T8fl5AYX-24">
-          <mxGeometry y="26" width="160" height="8" as="geometry" />
+          <mxGeometry y="56" width="160" height="8" as="geometry" />
         </mxCell>
         <mxCell id="QruILLsReR7-T8fl5AYX-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=block;endFill=0;" edge="1" parent="1" source="QruILLsReR7-T8fl5AYX-27" target="QruILLsReR7-T8fl5AYX-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QruILLsReR7-T8fl5AYX-27" value="Drop" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="890" y="1600" width="160" height="34" as="geometry" />
+          <mxGeometry x="890" y="1600" width="160" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="QruILLsReR7-T8fl5AYX-40" value="+ startInteraction()" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="QruILLsReR7-T8fl5AYX-27">
+          <mxGeometry y="26" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QruILLsReR7-T8fl5AYX-28" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="QruILLsReR7-T8fl5AYX-27">
-          <mxGeometry y="26" width="160" height="8" as="geometry" />
+          <mxGeometry y="56" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="QruILLsReR7-T8fl5AYX-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=block;endFill=0;" edge="1" parent="1" source="QruILLsReR7-T8fl5AYX-34" target="QruILLsReR7-T8fl5AYX-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QruILLsReR7-T8fl5AYX-34" value="Open" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="1600" width="160" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="QruILLsReR7-T8fl5AYX-35" value="+ startInteraction()" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="QruILLsReR7-T8fl5AYX-34">
+          <mxGeometry y="26" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QruILLsReR7-T8fl5AYX-36" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="QruILLsReR7-T8fl5AYX-34">
+          <mxGeometry y="56" width="160" height="8" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

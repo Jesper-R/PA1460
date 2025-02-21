@@ -3206,7 +3206,7 @@
         <mxCell id="hyTZ3_ORecdzhv-X-BrB-18" value="EventManager" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="690" width="410" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="hyTZ3_ORecdzhv-X-BrB-19" value="&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="hyTZ3_ORecdzhv-X-BrB-18">
+        <mxCell id="hyTZ3_ORecdzhv-X-BrB-19" value="- instance" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="hyTZ3_ORecdzhv-X-BrB-18">
           <mxGeometry y="26" width="410" height="26" as="geometry" />
         </mxCell>
         <mxCell id="hyTZ3_ORecdzhv-X-BrB-20" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="hyTZ3_ORecdzhv-X-BrB-18">
@@ -3218,7 +3218,7 @@
         <mxCell id="QruILLsReR7-T8fl5AYX-1" value="&lt;div&gt;&amp;lt;&amp;lt;context&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;GameObject&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1420" y="990" width="350" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="QruILLsReR7-T8fl5AYX-45" value="&amp;nbsp;+ strategy: InteractonStrategy" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="QruILLsReR7-T8fl5AYX-1">
+        <mxCell id="QruILLsReR7-T8fl5AYX-45" value="&amp;nbsp; - strategy: InteractonStrategy" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="QruILLsReR7-T8fl5AYX-1">
           <mxGeometry y="40" width="350" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QruILLsReR7-T8fl5AYX-2" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="QruILLsReR7-T8fl5AYX-1">

@@ -3360,22 +3360,22 @@
     </mxGraphModel>
   </diagram>
   <diagram id="szKFHkAPYnBuWMlLCMbH" name="Playground">
-    <mxGraphModel dx="584" dy="1844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2337" dy="2753" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="KeOFkeHQ0N_mBUGu8_lm-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;startFill=0;startArrow=diamondThin;" parent="1" source="KeOFkeHQ0N_mBUGu8_lm-2" target="KeOFkeHQ0N_mBUGu8_lm-67" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KeOFkeHQ0N_mBUGu8_lm-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Game&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- useCaseFactory: UseCaseFactory&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- currentUseCase&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&amp;nbsp;+ executeUseCase(UseCase:string)&amp;nbsp;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+        <mxCell id="KeOFkeHQ0N_mBUGu8_lm-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Game&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- useCaseFactory: UseCaseFactory&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- currentUseCase&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&amp;nbsp;+ executeUseCase(useCase:string)&amp;nbsp;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1120" y="174" width="430" height="123" as="geometry" />
         </mxCell>
-        <mxCell id="KeOFkeHQ0N_mBUGu8_lm-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=diamondThin;endFill=0;endSize=14;curved=1;" parent="1" source="KeOFkeHQ0N_mBUGu8_lm-4" target="KeOFkeHQ0N_mBUGu8_lm-82" edge="1">
+        <mxCell id="KeOFkeHQ0N_mBUGu8_lm-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=diamondThin;endFill=0;endSize=14;curved=1;" parent="1" source="KeOFkeHQ0N_mBUGu8_lm-4" target="KeOFkeHQ0N_mBUGu8_lm-63" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="2445" y="561" />
               <mxPoint x="2150" y="561" />
-              <mxPoint x="2150" y="770" />
+              <mxPoint x="2075" y="560" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -3536,14 +3536,6 @@
         <mxCell id="KeOFkeHQ0N_mBUGu8_lm-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=block;endFill=0;curved=1;" parent="1" source="KeOFkeHQ0N_mBUGu8_lm-63" target="KeOFkeHQ0N_mBUGu8_lm-61" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KeOFkeHQ0N_mBUGu8_lm-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;curved=1;" parent="1" source="KeOFkeHQ0N_mBUGu8_lm-63" target="KeOFkeHQ0N_mBUGu8_lm-82" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="2060" y="596" />
-              <mxPoint x="1840" y="596" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="KeOFkeHQ0N_mBUGu8_lm-63" value="InteractWithObject" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1940" y="350" width="270" height="80" as="geometry" />
         </mxCell>
@@ -3562,7 +3554,7 @@
         <mxCell id="KeOFkeHQ0N_mBUGu8_lm-68" value="&#xa;" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="KeOFkeHQ0N_mBUGu8_lm-67" vertex="1">
           <mxGeometry y="30" width="270" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="KeOFkeHQ0N_mBUGu8_lm-69" value="&amp;nbsp;+ createUseCase() : UseCase" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="KeOFkeHQ0N_mBUGu8_lm-67" vertex="1">
+        <mxCell id="KeOFkeHQ0N_mBUGu8_lm-69" value="&amp;nbsp;+ createUseCase(useCase : string) : UseCase" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="KeOFkeHQ0N_mBUGu8_lm-67" vertex="1">
           <mxGeometry y="64" width="270" height="30" as="geometry" />
         </mxCell>
         <mxCell id="KeOFkeHQ0N_mBUGu8_lm-77" value="&lt;div&gt;&amp;lt;&amp;lt;context&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;GameObject&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">

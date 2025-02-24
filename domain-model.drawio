@@ -3399,13 +3399,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="KeOFkeHQ0N_mBUGu8_lm-28" value="&lt;div&gt;&lt;div&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;InteractionStrategy&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2680" y="1127" width="280" height="90" as="geometry" />
+          <mxGeometry x="2680" y="1127" width="280" height="110" as="geometry" />
         </mxCell>
         <mxCell id="KeOFkeHQ0N_mBUGu8_lm-29" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="KeOFkeHQ0N_mBUGu8_lm-28" vertex="1">
           <mxGeometry y="40" width="280" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="KeOFkeHQ0N_mBUGu8_lm-30" value="+ startInteraction()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="KeOFkeHQ0N_mBUGu8_lm-28" vertex="1">
-          <mxGeometry y="48" width="280" height="42" as="geometry" />
+        <mxCell id="KeOFkeHQ0N_mBUGu8_lm-30" value="&lt;div&gt;+ startInteraction()&lt;/div&gt;&lt;div&gt;&lt;div&gt;+ listCurrentInteractionOptions()&lt;/div&gt;&lt;div&gt;+ setCurrentInteractionOptions(String theOptions)&lt;/div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="KeOFkeHQ0N_mBUGu8_lm-28" vertex="1">
+          <mxGeometry y="48" width="280" height="62" as="geometry" />
         </mxCell>
         <mxCell id="KeOFkeHQ0N_mBUGu8_lm-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=block;endFill=0;endSize=16;" parent="1" source="KeOFkeHQ0N_mBUGu8_lm-32" target="KeOFkeHQ0N_mBUGu8_lm-28" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -3566,7 +3566,7 @@
           <mxGeometry y="60" width="270" height="34" as="geometry" />
         </mxCell>
         <mxCell id="KeOFkeHQ0N_mBUGu8_lm-77" value="&lt;div&gt;&amp;lt;&amp;lt;context&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;GameObject&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2270" y="1040" width="350" height="220" as="geometry" />
+          <mxGeometry x="2270" y="1077" width="350" height="160" as="geometry" />
         </mxCell>
         <mxCell id="KeOFkeHQ0N_mBUGu8_lm-78" value="&amp;nbsp; - strategy: InteractonStrategy" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="KeOFkeHQ0N_mBUGu8_lm-77" vertex="1">
           <mxGeometry y="40" width="350" height="30" as="geometry" />
@@ -3574,8 +3574,8 @@
         <mxCell id="KeOFkeHQ0N_mBUGu8_lm-79" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="KeOFkeHQ0N_mBUGu8_lm-77" vertex="1">
           <mxGeometry y="70" width="350" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="KeOFkeHQ0N_mBUGu8_lm-80" value="&lt;div&gt;+ listInteractionTypes()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ listCurrentInteractionOptions()&lt;/div&gt;&lt;div&gt;+ setCurrentInteractionOptions(String theOptions)&lt;/div&gt;&lt;div&gt;+ abortCurrentInteraction()&lt;/div&gt;&lt;div&gt;---&lt;/div&gt;&lt;div&gt;+ setStrategy(InteractionStrategy): void&lt;/div&gt;&lt;div&gt;+ startInteraction()&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="KeOFkeHQ0N_mBUGu8_lm-77" vertex="1">
-          <mxGeometry y="78" width="350" height="142" as="geometry" />
+        <mxCell id="KeOFkeHQ0N_mBUGu8_lm-80" value="&lt;div&gt;+ listInteractionTypes()&lt;/div&gt;&lt;div&gt;+ abortCurrentInteraction()&lt;/div&gt;&lt;div&gt;---&lt;/div&gt;&lt;div&gt;+ setStrategy(InteractionStrategy): void&lt;/div&gt;&lt;div&gt;+ startInteraction()&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="KeOFkeHQ0N_mBUGu8_lm-77" vertex="1">
+          <mxGeometry y="78" width="350" height="82" as="geometry" />
         </mxCell>
         <mxCell id="KeOFkeHQ0N_mBUGu8_lm-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=none;startFill=0;endArrow=block;endFill=0;curved=1;endSize=13;" parent="1" source="KeOFkeHQ0N_mBUGu8_lm-82" target="KeOFkeHQ0N_mBUGu8_lm-87" edge="1">
           <mxGeometry relative="1" as="geometry" />

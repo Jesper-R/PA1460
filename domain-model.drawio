@@ -3360,7 +3360,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="szKFHkAPYnBuWMlLCMbH" name="Playground">
-    <mxGraphModel dx="1864" dy="1520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2343" dy="2888" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3598,32 +3598,34 @@
         <mxCell id="KeOFkeHQ0N_mBUGu8_lm-88" value="&#xa;" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="KeOFkeHQ0N_mBUGu8_lm-87" vertex="1">
           <mxGeometry y="26" width="410" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="KeOFkeHQ0N_mBUGu8_lm-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=diamondThin;endFill=0;endSize=14;curved=1;" parent="1" source="KeOFkeHQ0N_mBUGu8_lm-92" target="KeOFkeHQ0N_mBUGu8_lm-63" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1365" y="530" />
-              <mxPoint x="1990" y="530" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="KeOFkeHQ0N_mBUGu8_lm-92" value="&lt;div&gt;&amp;lt;&amp;lt;Singleton&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;EventManager&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1160" y="690" width="410" height="200" as="geometry" />
-        </mxCell>
-        <mxCell id="KeOFkeHQ0N_mBUGu8_lm-93" value="- instance: EventManager" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="KeOFkeHQ0N_mBUGu8_lm-92" vertex="1">
-          <mxGeometry y="40" width="410" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="KeOFkeHQ0N_mBUGu8_lm-94" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="KeOFkeHQ0N_mBUGu8_lm-92" vertex="1">
-          <mxGeometry y="66" width="410" height="8" as="geometry" />
-        </mxCell>
-        <mxCell id="KeOFkeHQ0N_mBUGu8_lm-95" value="+ createEvent(EventCondition, Event)&lt;div&gt;+ listAffectedEvents(EventCondition)&lt;/div&gt;&lt;div&gt;+ triggerEvents(EventCondition)&lt;/div&gt;&lt;div&gt;+ clearEvent(EventCondition)&lt;/div&gt;&lt;div&gt;+ clearEvent(Event)&lt;/div&gt;&lt;div&gt;---&lt;/div&gt;&lt;div&gt;- EventManager()&lt;/div&gt;&lt;div&gt;+ GetInstance(): EventManager&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="KeOFkeHQ0N_mBUGu8_lm-92" vertex="1">
-          <mxGeometry y="74" width="410" height="126" as="geometry" />
-        </mxCell>
         <mxCell id="C155-C8ndblkcZGZKZ9J-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startFill=0;startArrow=diamondThin;curved=1;endSize=15;startSize=17;" parent="1" source="KeOFkeHQ0N_mBUGu8_lm-82" target="KeOFkeHQ0N_mBUGu8_lm-77" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="2380" y="790" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="cT0YenwD_Tj76sRmqDyV-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=diamondThin;endFill=0;endSize=14;curved=1;exitX=0.501;exitY=1.017;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="cT0YenwD_Tj76sRmqDyV-6" target="KeOFkeHQ0N_mBUGu8_lm-61">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2440" y="130" />
+              <mxPoint x="2155" y="130" />
+            </Array>
+            <mxPoint x="3065" y="-438" as="targetPoint" />
+            <mxPoint x="2700" y="130" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cT0YenwD_Tj76sRmqDyV-3" value="&lt;div&gt;&amp;lt;&amp;lt;Singleton&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;EventManager&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2235" y="-200" width="410" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="cT0YenwD_Tj76sRmqDyV-4" value="- instance: EventManager" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="cT0YenwD_Tj76sRmqDyV-3">
+          <mxGeometry y="40" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="cT0YenwD_Tj76sRmqDyV-5" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="cT0YenwD_Tj76sRmqDyV-3">
+          <mxGeometry y="66" width="410" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="cT0YenwD_Tj76sRmqDyV-6" value="+ createEvent(EventCondition, Event)&lt;div&gt;+ listAffectedEvents(EventCondition)&lt;/div&gt;&lt;div&gt;+ triggerEvents(EventCondition)&lt;/div&gt;&lt;div&gt;+ clearEvent(EventCondition)&lt;/div&gt;&lt;div&gt;+ clearEvent(Event)&lt;/div&gt;&lt;div&gt;---&lt;/div&gt;&lt;div&gt;- EventManager()&lt;/div&gt;&lt;div&gt;+ GetInstance(): EventManager&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="cT0YenwD_Tj76sRmqDyV-3">
+          <mxGeometry y="74" width="410" height="126" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

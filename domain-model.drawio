@@ -3583,13 +3583,13 @@
         <mxCell id="KeOFkeHQ0N_mBUGu8_lm-82" value="Scene" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1620" y="690" width="410" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="KeOFkeHQ0N_mBUGu8_lm-83" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="KeOFkeHQ0N_mBUGu8_lm-82" vertex="1">
+        <mxCell id="KeOFkeHQ0N_mBUGu8_lm-83" value="+ currentGameObjects[]: GameObject" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="KeOFkeHQ0N_mBUGu8_lm-82" vertex="1">
           <mxGeometry y="26" width="410" height="26" as="geometry" />
         </mxCell>
         <mxCell id="KeOFkeHQ0N_mBUGu8_lm-84" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="KeOFkeHQ0N_mBUGu8_lm-82" vertex="1">
           <mxGeometry y="52" width="410" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="KeOFkeHQ0N_mBUGu8_lm-85" value="+ listAvailableElements()&lt;div&gt;+ isAvaiable(gameElementName: string): bool&lt;/div&gt;&lt;div&gt;+ isGameObject(gameElementName: string): bool&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="KeOFkeHQ0N_mBUGu8_lm-82" vertex="1">
+        <mxCell id="KeOFkeHQ0N_mBUGu8_lm-85" value="+ listAvailableElements()&lt;div&gt;+ isAvailable(gameElementName: string): bool&lt;/div&gt;&lt;div&gt;+ isGameObject(gameElementName: string): bool&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="KeOFkeHQ0N_mBUGu8_lm-82" vertex="1">
           <mxGeometry y="60" width="410" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KeOFkeHQ0N_mBUGu8_lm-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;startFill=0;startArrow=block;curved=1;startSize=16;" parent="1" source="KeOFkeHQ0N_mBUGu8_lm-87" target="KeOFkeHQ0N_mBUGu8_lm-77" edge="1">

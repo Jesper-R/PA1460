@@ -3378,7 +3378,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="KeOFkeHQ0N_mBUGu8_lm-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;startFill=0;" edge="1" parent="1" source="KeOFkeHQ0N_mBUGu8_lm-4" target="KeOFkeHQ0N_mBUGu8_lm-77">
+        <mxCell id="KeOFkeHQ0N_mBUGu8_lm-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;startFill=0;startArrow=diamondThin;startSize=20;" edge="1" parent="1" source="KeOFkeHQ0N_mBUGu8_lm-4" target="KeOFkeHQ0N_mBUGu8_lm-77">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="KeOFkeHQ0N_mBUGu8_lm-4" value="GameObjectRepository" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -3573,7 +3573,7 @@
         <mxCell id="KeOFkeHQ0N_mBUGu8_lm-80" value="&lt;div&gt;+ listInteractionTypes()&lt;/div&gt;&lt;div&gt;+ startInteraction(String theInteractionType)&lt;/div&gt;&lt;div&gt;+ listCurrentInteractionOptions()&lt;/div&gt;&lt;div&gt;+ setCurrentInteractionOptions(String theOptions)&lt;/div&gt;&lt;div&gt;+ startCurrentInteraction()&lt;/div&gt;&lt;div&gt;+ abortCurrentInteraction()&lt;/div&gt;&lt;div&gt;---&lt;/div&gt;&lt;div&gt;+ setStrategy(InteractionStrategy): void&lt;/div&gt;&lt;div&gt;+ startInteraction()&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="KeOFkeHQ0N_mBUGu8_lm-77">
           <mxGeometry y="78" width="350" height="142" as="geometry" />
         </mxCell>
-        <mxCell id="KeOFkeHQ0N_mBUGu8_lm-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=none;startFill=0;endArrow=block;endFill=0;curved=1;" edge="1" parent="1" source="KeOFkeHQ0N_mBUGu8_lm-82" target="KeOFkeHQ0N_mBUGu8_lm-87">
+        <mxCell id="KeOFkeHQ0N_mBUGu8_lm-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=none;startFill=0;endArrow=block;endFill=0;curved=1;endSize=13;" edge="1" parent="1" source="KeOFkeHQ0N_mBUGu8_lm-82" target="KeOFkeHQ0N_mBUGu8_lm-87">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="KeOFkeHQ0N_mBUGu8_lm-82" value="Scene" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">

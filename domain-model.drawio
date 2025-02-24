@@ -3364,7 +3364,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="KeOFkeHQ0N_mBUGu8_lm-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;startFill=0;startArrow=diamondThin;" parent="1" source="KeOFkeHQ0N_mBUGu8_lm-2" target="KeOFkeHQ0N_mBUGu8_lm-67" edge="1">
+        <mxCell id="KeOFkeHQ0N_mBUGu8_lm-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;startFill=0;startArrow=diamondThin;startSize=18;" parent="1" source="KeOFkeHQ0N_mBUGu8_lm-2" target="KeOFkeHQ0N_mBUGu8_lm-67" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="KeOFkeHQ0N_mBUGu8_lm-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Game&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- useCaseFactory: UseCaseFactory&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- currentUseCase&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&amp;nbsp;+ executeUseCase(useCase:string)&amp;nbsp;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
@@ -3615,7 +3615,7 @@
         <mxCell id="cT0YenwD_Tj76sRmqDyV-6" value="+ createEvent(EventCondition, Event)&lt;div&gt;+ listAffectedEvents(EventCondition)&lt;/div&gt;&lt;div&gt;+ triggerEvents(EventCondition)&lt;/div&gt;&lt;div&gt;+ clearEvent(EventCondition)&lt;/div&gt;&lt;div&gt;+ clearEvent(Event)&lt;/div&gt;&lt;div&gt;- EventManager()&lt;/div&gt;&lt;div&gt;+ GetInstance(): EventManager&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="cT0YenwD_Tj76sRmqDyV-3" vertex="1">
           <mxGeometry y="74" width="410" height="126" as="geometry" />
         </mxCell>
-        <mxCell id="oYpnnQgW4g16RPhfzZEO-1" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=diamondThin;endFill=0;endSize=13;" parent="1" source="KeOFkeHQ0N_mBUGu8_lm-78" target="KeOFkeHQ0N_mBUGu8_lm-82" edge="1">
+        <mxCell id="oYpnnQgW4g16RPhfzZEO-1" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=diamondThin;endFill=0;endSize=18;" parent="1" source="KeOFkeHQ0N_mBUGu8_lm-78" target="KeOFkeHQ0N_mBUGu8_lm-82" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>

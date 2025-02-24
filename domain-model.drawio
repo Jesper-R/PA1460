@@ -3360,7 +3360,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="szKFHkAPYnBuWMlLCMbH" name="Playground">
-    <mxGraphModel dx="1864" dy="2620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2343" dy="2888" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3545,13 +3545,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="KeOFkeHQ0N_mBUGu8_lm-63" value="InteractWithObject" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1940" y="350" width="270" height="102" as="geometry" />
+          <mxGeometry x="1940" y="350" width="270" height="80" as="geometry" />
         </mxCell>
         <mxCell id="KeOFkeHQ0N_mBUGu8_lm-64" value="&#xa;" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="KeOFkeHQ0N_mBUGu8_lm-63" vertex="1">
-          <mxGeometry y="26" width="270" height="46" as="geometry" />
+          <mxGeometry y="26" width="270" height="24" as="geometry" />
         </mxCell>
         <mxCell id="KeOFkeHQ0N_mBUGu8_lm-98" value="+executeUseCase()" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="KeOFkeHQ0N_mBUGu8_lm-63" vertex="1">
-          <mxGeometry y="72" width="270" height="30" as="geometry" />
+          <mxGeometry y="50" width="270" height="30" as="geometry" />
         </mxCell>
         <mxCell id="KeOFkeHQ0N_mBUGu8_lm-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;startFill=0;" parent="1" source="KeOFkeHQ0N_mBUGu8_lm-67" target="KeOFkeHQ0N_mBUGu8_lm-61" edge="1">
           <mxGeometry relative="1" as="geometry" />

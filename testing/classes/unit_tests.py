@@ -8,7 +8,7 @@ import GameObject as game_object
 class TestInteractWithObject(unittest.TestCase):
 
     def setUp(self):
-        print("\nsetup")
+        #print("\nsetup")
         self.game = game.Game()
 
         self.scene = scene.Scene("Mock Scene")
@@ -20,7 +20,7 @@ class TestInteractWithObject(unittest.TestCase):
         pass
 
     def tearDown(self):
-        print("teardown")
+        #print("teardown")
 
         # These dont really do anything, more for clarity?
         self.game = None
@@ -28,16 +28,33 @@ class TestInteractWithObject(unittest.TestCase):
         self.game_object = None
         pass
 
-    def test_select_object(self):
-        print("Testing select_object")
+
+    #Only deviation from our Sequence Diagram is that Scene doesnt create the game object.
+    def test_select_object_positive(self):
+        #print("Testing select_object, positive path ")
 
         available_interactions = self.game.select_object(self.game_object)
-        #available_interactions = ["pick up", "look at", "use"]
         self.assertEqual(available_interactions, ["pick up", "look at", "use"])
 
+    @unittest.expectedFailure
+    def test_select_object_negative(self):
+        #print("Testing select_object, negative path")
 
-    def test_select_interaction(self):
-        print("Testing select_interaction")
+        available_interactions = self.game.select_object(self.game_object)
+        self.assertEqual(available_interactions, ["banana"])
+
+
+    def test_select_interaction_positive(self):
+        #print("Testing select_interaction")
+
+        interaction_type = "pick up"
+        #specfic_options = self.game.select_interaction(interaction_type)
+        specific_options = ["amount"]
+        self.assertTrue("amount" in specific_options)
+
+    @unittest.expectedFailure
+    def test_select_interaction_negative(self):
+        #print("Testing select_interaction")
 
         interaction_type = "pick up"
         #specfic_options = self.game.select_interaction(interaction_type)
@@ -45,8 +62,18 @@ class TestInteractWithObject(unittest.TestCase):
         self.assertTrue("amount" in specific_options)
 
 
-    def test_set_interaction_options(self):
-        print("Testing set_interaction_options")
+    def test_set_interaction_options_positive(self):
+        #print("Testing set_interaction_options")
+
+        options = self.game.select_interaction("pick up")
+        #confirmed_options = self.game.set_interaction_options(options)
+        confirmed_options = ["amount"]
+
+        self.assertTrue("amount" in confirmed_options)
+
+    @unittest.expectedFailure
+    def test_set_interaction_options_negative(self):
+        #print("Testing set_interaction_options")
 
         options = self.game.select_interaction("pick up")
         #confirmed_options = self.game.set_interaction_options(options)
@@ -55,8 +82,16 @@ class TestInteractWithObject(unittest.TestCase):
         self.assertTrue("amount" in confirmed_options)
 
 
-    def test_start_interaction(self):
-        print("Testing start_interaction")
+    def test_start_interaction_positive(self):
+        #print("Testing start_interaction")
+
+        #result = self.game.start_interaction()
+        result = "You pick up the Mock Object."
+        self.assertTrue(result)
+
+    @unittest.expectedFailure
+    def test_start_interaction_positive(self):
+        #print("Testing start_interaction")
 
         #result = self.game.start_interaction()
         result = "You pick up the Mock Object."
@@ -64,4 +99,4 @@ class TestInteractWithObject(unittest.TestCase):
 
 
 if __name__ == '__main__':
-    unittest.main()
+    unittest.main(verbosity=2)

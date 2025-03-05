@@ -26,8 +26,3 @@ class GameObject:
 
     def abort_current_interaction(self):
         pass
-
-def main():
-    print("test")
-
-main()

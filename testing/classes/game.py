@@ -1,4 +1,4 @@
-import GameObject, InteractionTypes, Scene
+import classes.GameObject, classes.InteractionTypes, classes.Scene
 class Game:
     
     def __init__(self):

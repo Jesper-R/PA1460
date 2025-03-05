@@ -10,7 +10,7 @@ class Game:
     def select_interaction(interaction_type):
         pass
 
-    def set_interactionOptions(theOptions):
+    def set_interaction_options(the_options):
         pass
 
     def start_interaction():

@@ -43,7 +43,10 @@ class TestInteractWithObject(unittest.TestCase):
     def test_set_interaction_options(self):
         print("Testing set_interaction_options")
 
-        pass
+        options = self.game.select_interaction("pick up")
+        confirmed_options = self.game.set_interaction_options(options)
+        self.assertTrue("amount" in confirmed_options)
+
 
     def test_start_interaction(self):
         print("Testing start_interaction")

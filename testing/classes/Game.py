@@ -13,8 +13,8 @@ class Game:
         pass
 
     def select_object(self, game_object):
-        
-        pass
+        return self.current_scene.set_selected_object(game_object)
+
 
     def select_interaction(self, interaction_type):
         pass

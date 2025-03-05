@@ -5,7 +5,7 @@ class GameObject:
         self.interaction_types = ["pick up", "look at", "use"]
         self.current_interaction = "None"
 
-    def list_interactionTypes(self):
+    def get_interaction_types(self):
         return self.interaction_types
 
     def start_interaction(self, the_interaction_type):
@@ -14,6 +14,7 @@ class GameObject:
                 return f"You ${the_interaction_type} the ${self.name}."
             else:
                 return "Interaction not available."
+
 
     def list_current_interaction_options(self):
         pass

@@ -10,8 +10,6 @@ class TestInteractWithObject(unittest.TestCase):
         print("teardown")
         pass
 
-
-
     def test_select_object(self):
         print("Testing select_object")
 

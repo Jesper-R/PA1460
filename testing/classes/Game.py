@@ -17,7 +17,7 @@ class Game:
 
 
     def select_interaction(self, interaction_type):
-        pass
+        return self.current_scene.select_interaction(interaction_type)
 
     def set_interaction_options(self, the_options):
         pass

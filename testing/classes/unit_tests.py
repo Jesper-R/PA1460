@@ -2,6 +2,7 @@ import unittest
 import Game as game
 import Scene as scene
 import GameObject as game_object
+import InteractionType as interaction_types
 
 # We use our own interaction diagrams made for InteractWithObject, they are faulty but those are the only ones we have.
 
@@ -36,28 +37,24 @@ class TestInteractWithObject(unittest.TestCase):
 
     @unittest.expectedFailure
     def test_select_object_negative(self):
-        available_interactions = self.game.select_object()
-        #self.assertTrue(available_interactions)
-
-        #self.assertEqual(available_interactions, ["pick up", "look at", "use"])
+        available_interactions = self.game.select_object(self.game_object)
+        self.assertEqual(available_interactions, ["melon"])
 
 
     def test_select_interaction_positive(self):
-        #print("Testing select_interaction")
+        self.game.select_object(self.game_object)
 
-        interaction_type = "pick up"
-        #specfic_options = self.game.select_interaction(interaction_type)
-        specific_options = ["amount"]
-        self.assertTrue("amount" in specific_options)
+        interaction_type = interaction_types.PickUpInteraction()
+        specific_options = self.game.select_interaction(interaction_type)
+        self.assertEqual(specific_options, ["amount"])
 
     @unittest.expectedFailure
     def test_select_interaction_negative(self):
-        #print("Testing select_interaction")
+        self.game.select_object(self.game_object)
 
-        interaction_type = "pick up"
-        #specfic_options = self.game.select_interaction(interaction_type)
-        specific_options = ["amount"]
-        self.assertTrue("amount" in specific_options)
+        interaction_type = interaction_types.PickUpInteraction()
+        specific_options = self.game.select_interaction(interaction_type)
+        self.assertEqual(specific_options, [])
 
 
     def test_set_interaction_options_positive(self):

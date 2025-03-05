@@ -15,6 +15,9 @@ class Scene:
         self.selected_game_object = game_object
         available_interactions = self.selected_game_object.get_interaction_types()
         return available_interactions
+    
+    def select_interaction(self, interaction_type):
+        return self.selected_game_object.get_interaction_options(interaction_type)
 
     def list_available_alements(self, name):
         pass

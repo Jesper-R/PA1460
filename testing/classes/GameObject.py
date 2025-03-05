@@ -15,6 +15,8 @@ class GameObject:
             else:
                 return "Interaction not available."
 
+    def get_interaction_options(self, interaction_type: interaction_type):
+        return interaction_type.get_specific_options()
 
     def list_current_interaction_options(self):
         pass

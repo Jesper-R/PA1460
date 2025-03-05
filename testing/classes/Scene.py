@@ -31,9 +31,3 @@ class Scene:
         pass
 
 
-    def is_available():
-        return True
-
-
-    def is_gameObject():
-        return

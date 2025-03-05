@@ -2,6 +2,8 @@ import unittest
 import classes.game as game
 import classes.scene as scene
 
+# We use our own interaction diagrams made for InteractWithObject, they are faulty but those are the only ones we have.
+
 class TestInteractWithObject(unittest.TestCase):
 
     def setUp(self):
@@ -25,8 +27,10 @@ class TestInteractWithObject(unittest.TestCase):
 
     def test_select_object(self):
         print("Testing select_object")
+        available_interactions = self.game.select_object("Mock Object")
+        self.assertEqual(available_interactions, ["pick up", "look at", "use"])
 
-        pass
+
 
     def test_select_interaction(self):
         print("Testing select_interaction")

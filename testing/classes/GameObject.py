@@ -1,24 +1,29 @@
-import classes.InteractionTypes
+import InteractionTypes
 class GameObject:
     def __init__(self, name):
         self.name = name
         self.interactionTypes = ["pick up", "look at", "use"]
+        self.currentInteraction = "None"
 
     def listInteractionTypes(self):
         return self.interactionTypes
 
     def startInteraction(self, theInteractionType):
-        pass
+        for interaction in self.interactionTypes:
+            if theInteractionType == interaction:
+                return f"You ${theInteractionType} the ${self.name}."
+            else:
+                return "Interaction not available."
 
     def listCurrentInteractionOptions(self):
         pass
 
     def setCurrentInteractionOptions(self, theOptions):
-        pass
+        self.currentInteraction = theOptions
 
     def startCurrentInteraction(self):
-        pass
-    
+        return self.startInteraction(self.currentInteraction)
+
     def abortCurrentInteraction(self):
         pass
 

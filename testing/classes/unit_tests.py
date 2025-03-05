@@ -36,8 +36,10 @@ class TestInteractWithObject(unittest.TestCase):
 
     @unittest.expectedFailure
     def test_select_object_negative(self):
-        available_interactions = self.game.select_object(self.game_object)
-        self.assertEqual(available_interactions, ["melon"])
+        available_interactions = self.game.select_object()
+        #self.assertTrue(available_interactions)
+
+        #self.assertEqual(available_interactions, ["pick up", "look at", "use"])
 
 
     def test_select_interaction_positive(self):

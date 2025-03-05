@@ -1,4 +1,4 @@
-import GameObject
+import classes.GameObject as game_object
 
 class Scene:
     def __init__(self, name):
@@ -6,7 +6,7 @@ class Scene:
         self.game_objects = []
 
     def create_game_object(self, name):
-        object = GameObject.GameObject(name)
+        object = game_object(name)
         self.game_objects.append(object)
         return object
 

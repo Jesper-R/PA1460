@@ -1,13 +1,16 @@
 import unittest
+import classes.game as game
 
 class TestInteractWithObject(unittest.TestCase):
 
     def setUp(self):
         print("\nsetup")
+        self.game = game.Game()
         pass
 
     def tearDown(self):
         print("teardown")
+        self.game = None
         pass
 
 

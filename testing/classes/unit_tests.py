@@ -1,7 +1,7 @@
 import unittest
-import classes.Game as game
-import classes.Scene as scene
-import classes.GameObject as game_object
+import Game as game
+import Scene as scene
+import GameObject as game_object
 
 # We use our own interaction diagrams made for InteractWithObject, they are faulty but those are the only ones we have.
 
@@ -14,7 +14,7 @@ class TestInteractWithObject(unittest.TestCase):
         self.scene = scene.Scene("Mock Scene")
         self.game.current_scene = self.scene
 
-        self.game_object = scene.create_game_object("Mock Object")
+        self.game_object = self.scene.create_game_object("Mock Object")
 
 
         pass

@@ -1,6 +1,6 @@
-import classes.GameObject as game_object
-import classes.InteractionType as interaction_type
-import classes.Scene as scene
+import GameObject as game_object
+import InteractionType as interaction_type
+import Scene as scene
 
 class Game:
     

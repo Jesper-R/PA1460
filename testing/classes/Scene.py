@@ -1,4 +1,4 @@
-import classes.GameObject as game_object
+import GameObject as game_object
 
 class Scene:
     def __init__(self, name):

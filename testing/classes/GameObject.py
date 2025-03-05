@@ -1,4 +1,4 @@
-import classes.InteractionType as interaction_type
+import InteractionType as interaction_type
 class GameObject:
     def __init__(self, name):
         self.name = name

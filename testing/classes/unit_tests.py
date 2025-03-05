@@ -9,26 +9,17 @@ import InteractionType as interaction_types
 class TestInteractWithObject(unittest.TestCase):
 
     def setUp(self):
-        #print("\nsetup")
         self.game = game.Game()
-
         self.scene = scene.Scene("Mock Scene")
         self.game.set_current_scene(self.scene)
-
         self.game_object = self.scene.create_game_object("Mock Object")
-
-
         pass
 
     def tearDown(self):
-        #print("teardown")
-
-        # These dont really do anything, more for clarity?
         self.game = None
         self.scene = None
         self.game_object = None
         pass
-
 
     #Only deviation from our Sequence Diagram is that Scene doesnt create the game object.
     def test_select_object_positive(self):

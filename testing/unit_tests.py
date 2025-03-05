@@ -3,11 +3,11 @@ import unittest
 class TestInteractWithObject(unittest.TestCase):
 
     def setUp(self):
-        print("- Setup -")
+        print("\nsetup")
         pass
 
     def tearDown(self):
-        print("- Teardown -")
+        print("teardown")
         pass
 
 

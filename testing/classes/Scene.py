@@ -27,7 +27,6 @@ class Scene:
         print("Event generated")
         return result
 
-    def list_available_alements(self, name):
-        pass
+
 
 

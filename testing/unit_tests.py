@@ -25,8 +25,6 @@ class TestInteractWithObject(unittest.TestCase):
         self.game_object = None
         pass
 
-
-
     def test_select_object(self):
         print("Testing select_object")
         available_interactions = self.game.select_object("Mock Object")

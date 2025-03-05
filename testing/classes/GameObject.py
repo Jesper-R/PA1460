@@ -2,7 +2,7 @@ import InteractionTypes
 class gameObject:
     def __init__(self, name):
         self.name = name
-        self.interactionTypes = "throw"
+        self.interactionTypes = ["pick up", "look at", "use"]
 
     def listInteractionTypes(self):
         return self.interactionTypes

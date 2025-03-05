@@ -8,6 +8,10 @@ class Game:
         self.current_scene = None
         pass
 
+    def set_current_scene(self, scene):
+        self.current_scene = scene
+        pass
+
     def select_object(self, game_object):
         
         pass

@@ -12,7 +12,7 @@ class TestInteractWithObject(unittest.TestCase):
         self.game = game.Game()
 
         self.scene = scene.Scene("Mock Scene")
-        self.game.current_scene = self.scene
+        self.game.set_current_scene(self.scene)
 
         self.game_object = self.scene.create_game_object("Mock Object")
 

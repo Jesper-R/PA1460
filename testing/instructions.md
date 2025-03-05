@@ -4,10 +4,11 @@ Test one "positive path" (where everything works as expected) for each of the sy
 
 Each test should contain the following steps:
 
-Setup -- Make sure the system is in an initial state so that you can run the test. This may include creating some GameObjects, or entering a particular Scene. Since the use cases are "stateful" (you first select an object, then select what to do with the object, etc.), this setup phase will do more and more the further down the use case you get.
-Call the system event you are testing, with relevant parameters.
-Check that you get the expected return values or state changes in the system.
-Teardown -- clean up the system so that it is ready to run the next test.
+1. Setup -- Make sure the system is in an initial state so that you can run the test. This may include creating some GameObjects, or entering a particular 2.Scene. Since the use cases are "stateful" (you first select an object, then select what to do with the object, etc.), this setup phase will do more and more the further down the use case you get.
+2. Call the system event you are testing, with relevant parameters.
+3. Check that you get the expected return values or state changes in the system.
+4. Teardown -- clean up the system so that it is ready to run the next test.
+
 In order to test these unit tests, you will have to implement parts of the underlying system. Do this either according to your own class diagrams, or the ones provided above.
 
 At the very least, I expect there to be a Game class to start the use case, a Scene class that knows how to find a GameObject, a GameObject class that knows what Interactions are available to it, and a class hierarchy of InteractionTypes (which may internally be able to handle InteractionOptions).

@@ -1,6 +1,15 @@
 import unittest
 
 class TestInteractWithObject(unittest.TestCase):
+
+    def setUp(self):
+        pass
+
+    def tearDown(self):
+        pass
+
+
+
     def test_select_object(self):
         pass
 

@@ -6,14 +6,14 @@ class Scene:
         self.game_objects = []
 
     def create_game_object(self, name):
-        object = game_object(name)
+        object = game_object.GameObject(name)
         self.game_objects.append(object)
         return object
 
         
 
     def list_available_alements(self, name):
-        return list(self.elements.values())
+        pass
 
 
     def is_available():

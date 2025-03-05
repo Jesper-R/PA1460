@@ -27,13 +27,14 @@ class TestInteractWithObject(unittest.TestCase):
 
     def test_select_object(self):
         print("Testing select_object")
-        available_interactions = self.game.select_object("Mock Object")
+        available_interactions = self.game.select_object(self.game_object)
         self.assertEqual(available_interactions, ["pick up", "look at", "use"])
 
 
 
     def test_select_interaction(self):
         print("Testing select_interaction")
+
 
         pass
 

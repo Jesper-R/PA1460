@@ -31,17 +31,13 @@ class TestInteractWithObject(unittest.TestCase):
 
     #Only deviation from our Sequence Diagram is that Scene doesnt create the game object.
     def test_select_object_positive(self):
-        #print("Testing select_object, positive path ")
-
         available_interactions = self.game.select_object(self.game_object)
         self.assertEqual(available_interactions, ["pick up", "look at", "use"])
 
     @unittest.expectedFailure
     def test_select_object_negative(self):
-        #print("Testing select_object, negative path")
-
         available_interactions = self.game.select_object(self.game_object)
-        self.assertEqual(available_interactions, ["banana"])
+        self.assertNotEqual(available_interactions, ["pick up", "look at", "use"])
 
 
     def test_select_interaction_positive(self):

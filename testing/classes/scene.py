@@ -4,5 +4,14 @@ class scene:
         self.object = {}
 
 
-    def findObject(self, name):
+
+    def listAvailableElements(self, name):
         return self.objects.get(name)
+
+
+    def isAvailable():
+        return
+
+
+    def isGameObject():
+        return

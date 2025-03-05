@@ -1,16 +1,26 @@
 import unittest
 import classes.game as game
+import classes.scene as scene
 
 class TestInteractWithObject(unittest.TestCase):
 
     def setUp(self):
         print("\nsetup")
         self.game = game.Game()
+        self.scene = scene.Scene("Mock Scene")
+        self.game_object = game.GameObject("Mock Object")
+
+        self.game.set_current_scene(self.scene)
+        self.scene.add_game_object(self.game_object)
         pass
 
     def tearDown(self):
         print("teardown")
+
+        # These dont really do anything, more for clarity?
         self.game = None
+        self.scene = None
+        self.game_object = None
         pass
 
 

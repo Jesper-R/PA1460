@@ -18,6 +18,14 @@ class Scene:
     
     def select_interaction(self, interaction_type):
         return self.selected_game_object.get_interaction_options(interaction_type)
+    
+    def set_interaction_options(self, the_options):
+        return self.selected_game_object.set_interaction_options(the_options)
+
+    def start_interaction(self):
+        result = self.selected_game_object.execute_interaction()
+        print("Event generated")
+        return result
 
     def list_available_alements(self, name):
         pass

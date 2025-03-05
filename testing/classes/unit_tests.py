@@ -46,7 +46,7 @@ class TestInteractWithObject(unittest.TestCase):
 
         interaction_type = interaction_types.PickUpInteraction()
         specific_options = self.game.select_interaction(interaction_type)
-        self.assertEqual(specific_options, ["amount"])
+        self.assertEqual(specific_options, {"amount": 0})
 
     @unittest.expectedFailure
     def test_select_interaction_negative(self):
@@ -54,43 +54,45 @@ class TestInteractWithObject(unittest.TestCase):
 
         interaction_type = interaction_types.PickUpInteraction()
         specific_options = self.game.select_interaction(interaction_type)
-        self.assertEqual(specific_options, [])
+        self.assertEqual(specific_options, {})
 
 
     def test_set_interaction_options_positive(self):
-        #print("Testing set_interaction_options")
+        self.game.select_object(self.game_object)
+        interaction_type = interaction_types.PickUpInteraction()
+        self.game.select_interaction(interaction_type)
 
-        options = self.game.select_interaction("pick up")
-        #confirmed_options = self.game.set_interaction_options(options)
-        confirmed_options = ["amount"]
-
-        self.assertTrue("amount" in confirmed_options)
+        options = {"amount": 6}
+        confirmed_options = self.game.set_interaction_options(options)
+        self.assertEqual(confirmed_options, options)
 
     @unittest.expectedFailure
     def test_set_interaction_options_negative(self):
-        #print("Testing set_interaction_options")
+        self.game.select_object(self.game_object)
+        interaction_type = interaction_types.PickUpInteraction()
+        self.game.select_interaction(interaction_type)
 
-        options = self.game.select_interaction("pick up")
-        #confirmed_options = self.game.set_interaction_options(options)
-        confirmed_options = ["amount"]
-
-        self.assertTrue("amount" in confirmed_options)
+        options = {"amount": 6}
+        confirmed_options = self.game.set_interaction_options(options)
+        self.assertEqual(confirmed_options, {"amount": 5})
 
 
     def test_start_interaction_positive(self):
-        #print("Testing start_interaction")
+        self.game.select_object(self.game_object)
+        interaction_type = interaction_types.PickUpInteraction()
+        self.game.select_interaction(interaction_type)
 
-        #result = self.game.start_interaction()
-        result = "You pick up the Mock Object."
-        self.assertTrue(result)
+        result = self.game.start_interaction()
+        self.assertEqual(result, -1)
 
     @unittest.expectedFailure
-    def test_start_interaction_positive(self):
-        #print("Testing start_interaction")
+    def test_start_interaction_negative(self):
+        self.game.select_object(self.game_object)
+        interaction_type = interaction_types.PickUpInteraction()
+        self.game.select_interaction(interaction_type)
 
-        #result = self.game.start_interaction()
-        result = "You pick up the Mock Object."
-        self.assertTrue(result)
+        result = self.game.start_interaction()
+        self.assertEqual(result, 1)
 
 
 if __name__ == '__main__':

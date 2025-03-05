@@ -4,16 +4,18 @@ import classes.Scene as scene
 class Game:
     
     def __init__(self):
+        self.current_scene = None
         pass
 
-    def select_object(game_object):
+    def select_object(self, game_object):
+        
         pass
 
-    def select_interaction(interaction_type):
+    def select_interaction(self, interaction_type):
         pass
 
-    def set_interaction_options(the_options):
+    def set_interaction_options(self, the_options):
         pass
 
-    def start_interaction():
+    def start_interaction(self):
         pass

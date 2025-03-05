@@ -52,7 +52,9 @@ class TestInteractWithObject(unittest.TestCase):
     def test_start_interaction(self):
         print("Testing start_interaction")
 
-        pass
+        result = self.game.start_interaction()
+        self.assertTrue(result)
+
 
 if __name__ == '__main__':
     unittest.main()

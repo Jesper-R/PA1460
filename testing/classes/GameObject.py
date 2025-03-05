@@ -1,5 +1,5 @@
-import InteractionTypes
-class gameObject:
+import classes.InteractionTypes
+class GameObject:
     def __init__(self, name):
         self.name = name
         self.interactionTypes = ["pick up", "look at", "use"]

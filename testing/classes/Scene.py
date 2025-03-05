@@ -26,8 +26,3 @@ class Scene:
         result = self.selected_game_object.execute_interaction()
         print("Event generated")
         return result
-
-    def list_available_alements(self, name):
-        pass
-
-

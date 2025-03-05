@@ -6,15 +6,12 @@ class Game:
     
     def __init__(self):
         self.current_scene = None
-        pass
 
     def set_current_scene(self, scene):
         self.current_scene = scene
-        pass
 
     def select_object(self, game_object):
         return self.current_scene.set_selected_object(game_object)
-
 
     def select_interaction(self, interaction_type):
         return self.current_scene.select_interaction(interaction_type)

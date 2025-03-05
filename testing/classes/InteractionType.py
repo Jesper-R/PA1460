@@ -1,11 +1,6 @@
 class InteractionType:
     def __init__(self):
         self.options = {}
-    
-        pass
-
-    def execute(self, something):
-        pass
 
     def get_specific_options(self):
         pass

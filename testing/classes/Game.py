@@ -4,14 +4,14 @@ class Game:
     def __init__(self):
         pass
 
-    def selectObject(game_object):
+    def select_object(game_object):
         pass
 
-    def selectInteraction(interaction_type):
+    def select_interaction(interaction_type):
         pass
 
-    def setInteractionOptions(theOptions):
+    def set_interactionOptions(theOptions):
         pass
 
-    def startInteraction():
+    def start_interaction():
         pass

@@ -36,7 +36,8 @@ class TestInteractWithObject(unittest.TestCase):
     def test_select_interaction(self):
         print("Testing select_interaction")
 
-        specfic_options = self.game.select_interaction("pick up")
+        interaction_type = "pick up"
+        specfic_options = self.game.select_interaction(interaction_type)
         self.assertTrue("amount" in specfic_options)
 
 

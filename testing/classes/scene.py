@@ -1,12 +1,12 @@
 class Scene:
     def __init__(self, name):
         self.name = name
-        self.object = {}
+        self.elements = {}
 
 
 
     def listAvailableElements(self, name):
-        return self.objects.get(name)
+        return list(self.elements.values())
 
 
     def isAvailable():

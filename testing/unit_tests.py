@@ -11,10 +11,10 @@ class TestInteractWithObject(unittest.TestCase):
         print("\nsetup")
         self.game = game.Game()
         self.scene = scene.Scene("Mock Scene")
-        self.game_object = game.GameObject("Mock Object")
+        self.game_object = scene.create_game_object("Mock Object")
 
         self.game.set_current_scene(self.scene)
-        self.scene.add_game_object(self.game_object)
+        #self.scene.add_game_object(self.game_object)
         pass
 
     def tearDown(self):
@@ -35,6 +35,9 @@ class TestInteractWithObject(unittest.TestCase):
 
     def test_select_interaction(self):
         print("Testing select_interaction")
+
+        specfic_options = self.game.select_interaction("pick up")
+        self.
 
 
         pass
